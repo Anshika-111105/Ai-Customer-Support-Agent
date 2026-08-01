@@ -1,4 +1,4 @@
-# ⚡ AI Customer Support Agent
+# AI Customer Support Agent
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -9,7 +9,7 @@ A production-ready, state-of-the-art AI Customer Support Agent system built usin
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 Our support agent is designed with enterprise-grade capabilities to deliver a high-quality user experience and streamline operations:
 
@@ -24,7 +24,7 @@ Our support agent is designed with enterprise-grade capabilities to deliver a hi
 
 ---
 
-## 🗺️ System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -40,7 +40,7 @@ graph TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 Ai-Customer-Support-Agent/
@@ -60,7 +60,7 @@ Ai-Customer-Support-Agent/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Prerequisites
 Ensure you have **Python 3.8+** installed on your system.
@@ -97,7 +97,7 @@ python scripts/run_demo.py
 
 ---
 
-## 💻 Usage Example
+## Usage Example
 
 Integrating the AI Support Agent into your workflow is simple:
 
@@ -122,7 +122,7 @@ print(f"Agent response:\n{response}")
 
 ---
 
-## 📈 Monitoring & Quality Assurance
+## Monitoring & Quality Assurance
 
 To ensure service quality, every interaction tracks sentiment, speed, and accuracy:
 
@@ -134,7 +134,7 @@ print(performance_report)
 
 ---
 
-## 🔧 Development & Testing
+## Development & Testing
 
 We enforce strict linting, styling, and comprehensive tests to ensure reliability:
 
@@ -153,10 +153,10 @@ We enforce strict linting, styling, and comprehensive tests to ensure reliabilit
 
 ---
 
-## 📄 License
+## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-## 🆘 Support & Resources
+## Support & Resources
 * 📚 [Documentation Guides](docs/)
 * 🐛 [Issues & Bug Reports](https://github.com/Anshika-111105/Ai-Customer-Support-Agent/issues)
 * 💬 [Community Discussions](https://github.com/Anshika-111105/Ai-Customer-Support-Agent/discussions)
