@@ -12,11 +12,11 @@ from dataclasses import dataclass, field
 from openai import OpenAI
 from loguru import logger
 
-from config import AgentConfig
-from models import ConversationMetadata, EvaluationResult, WorkflowStep, WorkflowResult
-from tools import create_tool_registry, ToolRegistry
-from evaluator import PerformanceEvaluator
-from utils import (
+from .config import AgentConfig
+from .models import ConversationMetadata, EvaluationResult, WorkflowStep, WorkflowResult
+from .tools import create_tool_registry, ToolRegistry
+from .evaluator import PerformanceEvaluator
+from .utils import (
     safe_openai_call,
     format_conversation_history,
     calculate_response_time,

@@ -8,8 +8,8 @@ from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 import logging
 
-from agent import CustomerServiceAgent
-from config import AgentConfig
+from .agent import CustomerServiceAgent
+from .config import AgentConfig
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
