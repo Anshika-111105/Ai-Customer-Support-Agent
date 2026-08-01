@@ -49,8 +49,7 @@ class AgentConfig:
 
     def validate(self) -> None:
         """Validate configuration settings."""
-        if not self.openai_api_key:
-            raise ValueError("OPENAI_API_KEY is required but not set")
+        # Note: openai_api_key is checked in agent.py; if missing, it runs in demo mode.
 
         if self.max_conversation_history < 1:
             raise ValueError("MAX_CONVERSATION_HISTORY must be at least 1")

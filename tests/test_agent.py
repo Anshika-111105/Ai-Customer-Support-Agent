@@ -20,6 +20,7 @@ class TestCustomerServiceAgent:
             openai_api_key="test-key",
             default_model="gpt-3.5-turbo",
             enable_evaluation=False,
+            enable_sentiment_analysis=False,
             max_conversation_history=10,
         )
 

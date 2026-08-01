@@ -1,7 +1,3 @@
-"""
-Main customer service agent implementation.
-"""
-
 import json
 import logging
 import time

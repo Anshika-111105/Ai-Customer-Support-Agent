@@ -8,8 +8,9 @@ import sys
 import argparse
 from pathlib import Path
 
-# Add src to path
+# Add src and root to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from customer_service_agent import CustomerServiceAgent, setup_logging
 from examples.basic_usage import main as basic_demo
