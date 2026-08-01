@@ -3,10 +3,10 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ai-customer-service-agent"
+name = "ai-customer-support-agent"
 version = "1.0.0"
 description = "A production-ready AI customer service agent system"
-authors = [{ name = "Your Name", email = "your.email@example.com" }]
+authors = [{ name = "Anshika", email = "anshikasaklani894@gmail.com" }]
 readme = "README.md"
 license = { text = "MIT" }
 classifiers = [
@@ -40,10 +40,10 @@ dev = [
 notebooks = ["jupyter>=1.0.0", "ipykernel>=6.0.0"]
 
 [project.urls]
-Homepage = "https://github.com/Bhavik-Jikadara/ai-customer-service-agent.git"
-Documentation = "https://github.com/Bhavik-Jikadara/ai-customer-service-agent.git/docs"
-Repository = "https://github.com/Bhavik-Jikadara/ai-customer-service-agent.git"
-Issues = "https://github.com/Bhavik-Jikadara/ai-customer-service-agent.git/issues"
+Homepage = "https://github.com/Anshika-111105/Ai-Customer-Support-Agent.git"
+Documentation = "https://github.com/Anshika-111105/Ai-Customer-Support-Agent.git/docs"
+Repository = "https://github.com/Anshika-111105/Ai-Customer-Support-Agent.git"
+Issues = "https://github.com/Anshika-111105/Ai-Customer-Support-Agent.git/issues"
 
 [tool.black]
 line-length = 88

@@ -3,8 +3,8 @@ AI Customer Service Agent - A production-ready customer service AI agent system.
 """
 
 __version__ = "1.0.0"
-__author__ = "Bhavik Jikadara"
-__email__ = "bhavikjikadara@yahoo.com"
+__author__ = "Anshika"
+__email__ = "anshikasaklani894@gmail.com"
 
 from .agent import CustomerServiceAgent
 from .config import AgentConfig

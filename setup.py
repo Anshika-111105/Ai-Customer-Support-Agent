@@ -9,10 +9,10 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     ]
 
 setup(
-    name="ai-customer-service-agent",
+    name="ai-customer-support-agent",
     version="1.0.0",
-    author="Bhavik Jikadara",
-    author_email="bhavikjikadara@yahoo.com",
+    author="Anshika",
+    author_email="anshikasaklani894@gmail.com",
     description="A production-ready AI customer service agent system",
     long_description=long_description,
     long_description_content_type="text/markdown",
